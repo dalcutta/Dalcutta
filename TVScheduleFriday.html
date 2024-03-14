@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>March Madness Tournament Data</title>
+    <title>March Madness Dalcutta</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -75,10 +75,10 @@
     </style>
 </head>
 <body>
-    <h1>March Madness Calcutta</h1>
+    <h1>March Madness Dalcutta</h1>
     <div class="toolbar">
         <a href="index.html">Home</a>
-               <div class="dropdown" id="dropdownTVSchedule" onmouseover="toggleDropdown('dropdownContentTVSchedule', true)" onmouseout="toggleDropdown('dropdownContentTVSchedule', false)">
+        <div class="dropdown" id="dropdownTVSchedule" onmouseover="toggleDropdown('dropdownContentTVSchedule', true)" onmouseout="toggleDropdown('dropdownContentTVSchedule', false)">
             <a href="#" onclick="handleDropdownClick(event, 'dropdownTVSchedule')">TV Schedule <span class="dropdown-arrow">▼</span></a>
             <div class="dropdown-content" id="dropdownContentTVSchedule">
                 <a href="TVScheduleThursday.html">Thursday</a>
@@ -112,6 +112,25 @@
                 <a href="2022PicksSorted.html">Picks Sorted</a>
 		<a href="2022Payouts.html">Payouts</a>
                 <a href="2022Picks.html">Picks</a>
+
+            </div>
+        </div>
+      <div class="dropdown" id="dropdown2021" onmouseover="toggleDropdown('dropdownContent2021', true)" onmouseout="toggleDropdown('dropdownContent2021', false)">
+            <a href="#" onclick="handleDropdownClick(event, 'dropdown2021')">2021 <span class="dropdown-arrow">▼</span></a>
+            <div class="dropdown-content" id="dropdownContent2021">
+                <a href="2021FullBracket.html">Full Bracket</a>
+                <a href="2021PicksSorted.html">Picks Sorted</a>
+                <a href="2021Payouts.html">Payouts</a>
+                <a href="2021Picks.html">Picks</a>
+            </div>
+        </div>
+      <div class="dropdown" id="dropdown2019" onmouseover="toggleDropdown('dropdownContent2019', true)" onmouseout="toggleDropdown('dropdownContent2019', false)">
+            <a href="#" onclick="handleDropdownClick(event, 'dropdown2019')">2019 <span class="dropdown-arrow">▼</span></a>
+            <div class="dropdown-content" id="dropdownContent2019">
+                <a href="2019FullBracket.html">Full Bracket</a>
+                <a href="2019PicksSorted.html">Picks Sorted</a>
+                <a href="2019Payouts.html">Payouts</a>
+                <a href="2019Picks.html">Picks</a>
             </div>
         </div>
         <div class="dropdown" id="dropdown2018" onmouseover="toggleDropdown('dropdownContent2018', true)" onmouseout="toggleDropdown('dropdownContent2018', false)">
@@ -132,9 +151,18 @@
                 <a href="2017Picks.html">Picks</a>
             </div>
         </div>
+      <div class="dropdown" id="dropdown2016" onmouseover="toggleDropdown('dropdownContent2016', true)" onmouseout="toggleDropdown('dropdownContent2016', false)">
+            <a href="#" onclick="handleDropdownClick(event, 'dropdown2016')">2016 <span class="dropdown-arrow">▼</span></a>
+            <div class="dropdown-content" id="dropdownContent2016">
+                <a href="2016FullBracket.html">Full Bracket</a>
+                <a href="2016PicksSorted.html">Picks Sorted</a>
+                <a href="2016Payouts.html">Payouts</a>
+                <a href="2016Picks.html">Picks</a>
+            </div>
+        </div>
     </div>
     <div class="container" onclick="collapseDropdownsOnMobile(event)">
-        <iframe id="embeddedSheet" src="https://lennykenny1.github.io/Calcutta/NCAA_SCHEDULE_2023_DAY_2.pdf"></iframe>
+        <iframe id="embeddedSheet" src="https://Dalcutta.github.io/Dalcutta/NCAA_SCHEDULE_2023_DAY_2.pdf"></iframe>
     </div>
 
     <script>
