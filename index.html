@@ -75,6 +75,23 @@
             background-color: #009CDE;
             color: #fff;
         }
+
+
+        @media screen and (max-width: 768px) {
+            .toolbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .toolbar .dropdown {
+                margin-bottom: 10px;
+            }
+            .toolbar .dropdown-content {
+                position: relative;
+                display: block;
+                min-width: 100%;
+                box-shadow: none;
+            }
+        }
     </style>
 </head>
 <body>
